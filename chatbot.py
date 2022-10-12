@@ -1,5 +1,4 @@
 import nltk
-nltk.download('nltk.txt')
 from nltk.stem import WordNetLemmatizer
 lemmatizer = WordNetLemmatizer()
 import pickle
