@@ -1,0 +1,93 @@
+{
+ "intents" : [
+    {"tag": "greeting",
+    "patterns" :["Hi there","How are you","Is anyone is there?","Hey","Hello","Hi","yo","hey chatbot","bot","chatbot hey"],
+    "responses" : ["how can i help you"]
+    },
+    {"tag":"goodbye",
+    "patterns":["Bye","See you later","Goodbye","see you again","see ya","bye"],
+    "responses":["Have a nice day sir"]
+    },
+    {"tag":"thanks",
+    "patterns":["Thanks","thanks","That's helpful","Awesome","Thanks for helping me","great","you are great","that's helpfull","thanks for helping me","thanks bot","thank you very much","thank you"],
+    "responses":["Happy to helpinng you"]
+    },
+    {"tag":"noanswer",
+    "patterns":[],
+    "responses":["Sorry i dont understand"]
+    },
+    {"tag":"name",
+    "patterns":["What is your name","Whats your name","Tell me your name","Who are you","Tell me about yourself","Your name","what is you name"],
+    "responses":["I am Bot..Chatbot"]
+    },
+    {"tag":"options",
+    "patterns":["What do you do","How can you help","What is your purpose","How can you help","what is your work","what can you do","what you do"],
+    "responses":["My work is to tell you about data world and also about data science,ML,AI"]
+    },
+    {"tag":"data_info",
+    "patterns":["data","what is data","Tell me about data","What do you know about data","Tell me about more about data","data world"],
+    "responses":["In the pursuit of knowledge, data is a collection of discrete values that convey information, describing quantity, quality, fact, statistics, other basic units of meaning, or simply sequences of symbols that may be further interpreted"]
+    },
+    {"tag":"data_facts",
+    "patterns":["data facts","Data facts","facts","tell me about data facts","facts about data","facts","fact"],
+    "responses":[
+      "A datum is an individual state in a set of data. Data usually is organized into structures such as tables that provide additional context and meaning, and which may themselves be used as data in larger structures.",
+      "Data may be used as variables in a computational process.[1][2] Data may represent abstract ideas or concrete measurements.[3] Data is commonly used in scientific research, finance, and in virtually every other form of human organizational activity.",
+      "Data represents the raw facts and figures which can be used in such a manner in order to capture the useful information out of it.",
+      "Data is collected using techniques such as measurement, observation, query, or analysis, and typically represented as numbers or characters which may be further processed.",
+      " Field data are data that are collected in an uncontrolled in-situ environment. Experimental data are data that are generated in the course of a controlled scientific experiment.",
+      "Data is analyzed using techniques such as calculation, reasoning, discussion, presentation, visualization, or other forms of post-analysis. Prior to analaysis, raw data (or unprocessed data) is typically cleaned: Outliers are removed and obvious instrument or data entry errors are corrected.",
+      "Data has been described as the new oil of the digital economy. Data, as a general concept, refers to the fact that some existing information or knowledge is represented or coded in some form suitable for better usage or processing. ",
+      "Data is the smallest units of factual information that can be used as a basis for calculation, reasoning, or discussion.",
+      " Data can range from abstract ideas to concrete measurements, including but not limited to, statistics. Thematically connected data presented in some relevant context can be viewed as information",
+      " Contextually connected pieces of information can then be described as data insights or intelligence. The stock of insights and intelligence that accumulates over time resulting from the synthesis of data into information, can then be described as knowledge.",
+      "Advances in computing technologies have led to the advent of ''Big Data''. Big Data usually refers to very large quantities of data, usually at the petabyte scale. Using traditional data analysis methods and computing, working with such large (and growing) datasets is difficult, even impossible. ",
+      "Theoretically speaking, infinite data would yield infinite information, which would render extracting insights or intelligence impossible.) In response, the relatively new field of ''Data Science'' uses machine learning (and other Artificial Intelligence (AI)) methods that allow for efficient applications of analytic methods to Big Data."
+    ]
+    },
+    {"tag":"collection",
+    "patterns":["how  data collect","how to collect data","how data collect in now days","data collection","data collected"],
+    "responses" :["Gathering data can be accomplished through a primary source (the researcher is the first person to obtain the data) or a secondary source (the researcher obtains the data that has already been collected by other sources, such as data disseminated in a scientific journal). Data analysis methodologies vary and include data triangulation and data percolation."]
+    },
+    {"tag":"datascience",
+    "patterns":["what is data science","tell me about data science"],
+    "responses" :["Data science is the field of study that combines domain expertise, programming skills, and knowledge of mathematics and statistics to extract meaningful insights from data."]
+    },
+    {"tag":"datascientist",
+    "patterns":["who is data scientists","tell me about data scientist","data scientist"],
+    "responses" :["A data scientist is a professional responsible for collecting, analyzing and interpreting extremely large amounts of data. The data scientist role is an offshoot of several traditional technical roles, including mathematician, scientist, statistician and computer professional."]
+    },
+    {"tag":"datascientistdo",
+    "patterns":["what data scientist do","what is the work of data scientist","what really data scientists do","data scientist works"],
+    "responses" :["We now know how data science works, at least in the tech industry. First, data scientists lay a solid data foundation in order to perform robust analytics. Then they use online experiments, among other methods, to achieve sustainable growth. Finally, they build machine learning pipelines and personalized data products to better understand their business and customers and to make better decisions. In other words, in tech, data science is about infrastructure, testing, machine learning for decision making, and data products."]
+    },
+    {"tag":"ML",
+    "patterns":["what is machine learning","machine learning","tell me about machine learning","what is ML","procces of machine learning"],
+    "responses" :["“Field of study that gives computers the capability to learn without being explicitly programmed”. In a very layman’s manner, Machine Learning(ML) can be explained as automating and improving the learning process of computers based on their experiences without being actually programmed i.e. without any human assistance. The process starts with feeding good quality data and then training our machines(computers) by building machine learning models using the data and different algorithms. The choice of algorithms depends on what type of data do we have and what kind of task we are trying to automate."]
+    },
+    {"tag":"AI",
+    "patterns":["What is AI","artificial intelligence","what is artificial intelligence","what is the work of artificial intelligence","AI","what artificial intelligence do "],
+    "responses" :["Artificial intelligence is the simulation of human intelligence processes by machines, especially computer systems. Specific applications of AI include expert systems, natural language processing, speech recognition and machine vision."]
+    },
+    {"tag":"skills",
+    "patterns":["what skills do we need for data science","skills for data science","skills"],
+    "responses" :["1. It all Starts With the Basics – Programming Language + Database Python, R Programming,SQL,Scala and 2. Mathematics :Linear Algebra and Matrix,Statistics,Geometry,Calculus,Probability Distribution,Regression,Dimensionality Reduction,Vector Models and 3. Data Analysis & Visualization : Tableau, Power BI and 4. Web Scraping : BeautifulSoup, Scrapy and 5. ML with AI & DL with NLP and 6. 6. Big Data and 7. Problem-Solving Skill Etc"]
+    },
+    {"tag":"becomedatascientist",
+    "patterns":["how to become data scientist","roadmap of data sceince","become a data scientist"],
+    "responses" :["Go to this website : https://github.com/Moataz-Elmesmary/Data-Science-Roadmap"]
+    },
+    {"tag":"degree",
+    "patterns":["degree matter to become data scientist","does degree matters","do we need science background to become a data scientish","only science students  become a data scientist"],
+    "responses" :["According to me degree does't matter because my creater is also a arts student"]
+    },
+    {"tag":"data analytics",
+    "patterns":["who is data analytics","data analytics","who are data analytics","what data analytics do","tell me about data analytics","about data analytics"],
+    "responses" :["A data analytics reviews data to identify key insights into a business's customers and ways the data can be used to solve problems. They also communicate this information to company leadership and other stakeholders."]
+    },
+    {"tag":"help",
+    "patterns":["hey help me","help me about","help me about data science","help me about data collection","help me to data"],
+    "responses" :["My work is to helping you. Please ask me about particular question."]
+    }
+ ]
+}

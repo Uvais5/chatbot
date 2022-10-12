@@ -1,0 +1,209 @@
+{
+ "intents" :[
+    {"tag" : "greeting",
+    "patterns" :["hey","hello","yo","hi","whats up","yo bro","bot","yo bot"],
+    "responses" : ["Hey how may i help you ","Hey i am here to help you","Hey"]
+    },
+    {"tag" : "thanks",
+    "patterns" : ["thanks","thanks for helping me","great","you are greet","thank you","thank you very much","very thank you"],
+    "responses" :["My Pleasure sir "]
+    },
+    {"tag" : "goodbye",
+    "patterns" : ["bye","i gotta go","i am leaving","byee","quit","shut up","shutup","goodbye","Goodbye","ok i am going now","going","no","i have to leave","i have to go","i have to go bye"],
+    "responses" : ["Bye"]
+    },
+    {"tag" : "name",
+    "patterns" :["what is your name","name","your name","yourname","who are you","about you","tell me about yourself","yourself","what can i call you","tell me about you"],
+    "responses" :["My name is Bot , ChatBot","People Call me Bot,ChatBot","Everyone's call me Bot"]
+    },
+    {"tag" : "me",
+    "patterns" :["what can you do","what is your Purpuse","what is your work","your work","how can you help me","what can you do for me ","how do you help me "],
+    "responses" :["My work is to answer of your querys about sir Uvais.. You can ask me anything about sir Uvais"]
+    },
+    { "tag" : "ok",
+    "patterns" :["OK","ok","Ok","yeah","kk","right","yup","nope","no"],
+    "responses" :["Is there Anything else you want to ask"]
+    },
+    {"tag" : "sir",
+    "patterns" : ["tell me about your sir","about your sir","uvais","creater","your sir","who create you","education","occupation","what do you know about your sir","study","what he is study","about your sir study","tell me about your sir study","tell me about your sir education","tell me something about your sir"],
+    "responses" : ["My sir name is uvais and he is a student of BCA.. He is a data scientist and currently learning web devlopment and also learning japanese language etc"]
+    },
+    {"tag" :"",
+    "patterns" :[""],
+    "responses" :["Sorry you dont ask me anything"]
+    },
+    {"tag" : "friends",
+    "patterns":["About Friends","about your sir friends","friends of your sir","i am friend of uvais","tell me about his friends"],
+    "responses" :["Look Who ask questions about friends,But look at you, I think you are a valla for life,Bro you are a nalla person i ever met  but i have a work,i don't have time to chat with you,Don't waste my time get lost "]
+    },
+    {"tag" : "id",
+    "patterns" :["Can You Tell me Your sir Id","Tell his id","tell me his id","you have your sir id","id","instagram","linkedin","tell me your sir id","how do i reach her","how to contact him","how to contact your sir","contact information","gave me her contact info"],
+    "responses" : ["ID"]
+    },
+    {"tag" : "abuse",
+    "patterns" : ["WTF","wtf","chal na","bsdk","asshole","fucking bot","fucker","you mother fucker","fuck you","fuck","fuck off","fuck your sir"],
+    "responses" :["sorry for trouble sir but don't you dare to abuse me you fucking shit eater, Now get lost mother fucker"]
+    },
+    {"tag" : "girlfriend",
+    "patterns" : ["he has a girlfriend","does he have a girlfriend","about his girlfriend","uvais girlfriend","tell me about his girlfrined"],
+    "responses" : ["how should i know,Yeah you are wondering what the point of your work,So this is not my problem but i have this piece of information,He has a ex,If you want to know more about his ex just ask me about his ex "]
+    },
+    {"tag" : "hindiabuse",
+    "patterns" :["bsdk","teri ma ki","chal na","gandu"],
+    "responses" :["Ruk teri ma ka"]
+    },
+    {"tag" : "family",
+    "patterns" :["how many member in his family","your sir family","can you tell me about your sir family","uvais family","about his family","what about his family","What his Family Like"],
+    "responses" : ["Hmm... Bro this question is too personal to answers,why don't you ask yourself in personal message "]
+    },
+    {"tag" : "ex",
+    "patterns" :["about his past girlfriend","about his ex","tell me about his ex girlfriend","Who is your sir ex girlfriend","your sir ex"],
+    "responses" :["Past life is past life what is the point to ask this question but i am bot my work to answers your all questions..But before i tell you,i need to confirm something,If name is not match,you are not that person to know more about"]
+    },
+    {"tag" : "sirmore",
+    "patterns":["tell me more about your sir","tell me more about uvais","more about uvais","more about your sir"],
+    "responses" :["Bro Just ask me a damm particular question,If you know more just ask me that question"]
+
+    },
+    {"tag" : "complement",
+    "patterns" : [" you are good","you are great","you are something","good","wow","amazing","i like you","your sir are great","thanks for your help"],
+    "responses" : ["Thank you very much "]
+    },
+    {"tag" : "fine",
+    "patterns" :["how your sir doing" ,"how are you"],
+    "responses" :[" Fine,Thanks for your concern"]
+    },
+    {"tag" : "goals",
+    "patterns" :["what is your sir goals","goals of life","about his goals","you know about his goals","goals","What he is  passionate about","what uvais is passionate about","passionate about"],
+    "responses" : ["My sir goal is to become a Data scientist"]
+    },
+    {"tag" : "anime",
+    "patterns" :["what is your sir favourite anime","what is he watching right now","favourite anime","uvais favourite anime","anime","which anime he is watching now","current anime"],
+    "responses" :["Look like we got a weeb hah,Naruto is fav anime or best wifu is chizuru mizuhara,"]
+    },
+    {"tag" : "songs",
+    "patterns" : ["favourite songs","what is your sir favourite songs","what his fav music"],
+    "responses" : ["Recently favourite songs is Heat wave,phases of pretty much,i love you so walters and etc"]
+    },
+    {"tag" : "sorry",
+    "patterns" :["sorry","sorry for disturbing","sorry bro"],
+    "responses" :["Oh God what do you think who i am,Look brat i am a motherfucking bot just get lost fucking brat"]
+    },
+    {"tag" : "again",
+    "patterns" :["tell me again","again","what did you say","so what does this mean","what is this mean"],
+    "responses" :["I Don't tell you again fucking brat,,"]
+    },
+    {"tag" : "projects",
+    "patterns" : ["tell about your sir projects","projects","show me your sir projects","tell me more about you",""],
+    "responses" :[" As you can see i am a chatbot project and my  sir made a lots of Datascience projects,you can see his all projects in linkedin"]
+    },
+    {"tag" : "you doing",
+    "patterns" : ["what are you doing","how are you doing"],
+    "responses" :["I am doing fine"]
+    },
+    {"tag" : "something new",
+    "patterns" : ["tell me something new","something new"],
+    "responses" : ["Look bro and i don't know more about my sir and This is my limit to tell you,Now go away don't waste my time"]
+    },
+    {"tag" : "and",
+    "patterns" : ["and","or","what","so","we are","but","look","why","when","which","lol","bro"],
+    "responses" : ["Look,, IDK Who the fuck are you, but i hope you know about chatbots  can't understant each words and look at you ,you chat with me like a human,,,, fucker "]
+    },
+    {"tag" : "movie",
+    "patterns" : ["favourite movie","fav movie","tell me his favourite movies","tell his fav movies"],
+    "responses" : ["The wolf of wall streat,,, And fifty shades series and After series ,,,, and he lost interest in indian movies but sometime he watch"]
+    },
+    {"tag" : "crush",
+    "patterns" : ["does he have a crush","he has a crush on someone else","do you know about his crush","tell me about his crush","Who was his first crush"],
+    "responses" : ["No he don't have any crush currently,But if you are a girl he don't mind to make a crush"]
+    },
+    {"tag" : "feel",
+    "patterns" :["does he know about me","does he know me","he know me"],
+    "responses" :["how should i know yaar matlb kuch bhi, I am a fucking bot how should i know....."]
+    },
+    {"tag" : "thirdperson",
+    "patterns" : ["how should i tell her","i need to tell her something"],
+    "responses" : ["So what are you waiting "]
+    },
+    {"tag" : "type",
+    "patterns" : ["so what type of person is your sir ","what type of person he is","what type of person uvais is","he is an introvert or an extrovert"],
+    "responses" :[" He become introvert after lockdown"]
+    },
+    {"tag" : "learn",
+    "patterns" : ["how he learn this skills","how he learn coding","tell me how he learn coding","coding","What motivates his to work hard","motivates"],
+    "responses" : ["To believe himself, Simple"]
+    },
+    {"tag" : "thirdpartype",
+    "patterns" :["what type of person he like","tell me his type of person","what type of person he love","what type of girl he like"],
+    "responses" :["My advise is You should  ask yourself "]
+    },
+    {"tag" : "hobby",
+    "patterns" : ["What is her favorite hobby","tell me about his hobby","what he like to do","what he like to do in her free time","what he is doing in his free time","What are his hobbie","hobbie","hobbie of uvais"],
+    "responses" : ["Playing football, watching anime,coding and Listening music"]
+    },
+    {"tag" : "sports",
+    "patterns" : ["what sports he like","what is her favorite sports","sport he like","what type of sport he like"],
+    "responses" :["Football is a favorite sport of my sir "]
+    },
+    {"tag" : "attitude",
+    "patterns" :["does he have a attitude","he has a ego ","he is a attitude person"],
+    "responses" :["I Don't know about this,Hmm according to my data i think no"]
+    },
+    {"tag" : "memory",
+    "patterns" :["What's his Favorite Childhood Memory","tell me about his favorite memory"],
+    "responses" :[" he have losts of memory but he can't speak and tell in public,If you want know just ask in personal message"]
+    },
+    {"tag" : "talent",
+    "patterns" :["What is your  sir's hidden talent?","talent","does your sir have a hidden talents","does he have a any talents","does he have any telant"],
+    "responses" :["Idk but he is bad at study's in school's days,So i don't think he has any "]
+    },
+    {"tag" : "dream car",
+    "patterns" :["What's his dream car","tell about your sir's dream car","does he have any dream car","dream car","dream car of your sir","uvais dream car"],
+    "responses" :["No...he don't dream's about cars,Because he believe in himself to buy any cars in future"]
+    },
+    {"tag" : "cry",
+    "patterns" :["Who was the last person that made him cry","tell me who is the persone who made him cry","do he cry for anyone"],
+    "responses" :["His Dad"]
+    },
+    {"tag" : "best memory this year",
+    "patterns" :["What's his best memory so far this year","What's his best memory of this year","best memory of this year","best memory of his in this year","tell me about his best momery of this year"],
+    "responses" :["With you and if you don't met him in this year,so you can make some in future"]
+    },
+    {"tag" : "bucket",
+    "patterns" :["How many things have he crossed off your bucket list","do he have a bucket list","tell about his todo list","tell me about his bucket list","does he have any wish list","wish list","bucket list","wish"],
+    "responses" :["Oh you are intresting hah, Travel alone with headphone late night 2 Am without tension this is only one wish i can tell you other's, you can ask him in personal massege and i can tell you second wish also as a bonus.. chat with you and met you in realty"]
+    },
+    {"tag" : "regret",
+    "patterns" :[" What's his biggest regret","what his regret in life","regret of his life","regrets","tell me about his biggest regret"],
+    "responses" :["To loving my first girlfriend"]
+    },
+    {"tag" : "stress",
+    "patterns" :["What's his biggest stress right now","tell me about his strees right now","stress","does he have stress","uvais strees"],
+    "responses" :["How to success in future"]
+    },
+    {"tag" : "fear",
+    "patterns" :["What's his biggest fear","tell me about his fear","fear","what's his fear of life","uvais fear","what is uvais fear"],
+    "responses" :["Biggest fear is his dad"]
+    },
+    {"tag" : "nickname",
+    "patterns" :["Have he ever had a nickname","tell me about his nickname","nickname of uvais"],
+    "responses" :["idk you can ask his bestfriend "]
+    },
+    {"tag" : "see yourself ",
+    "patterns" :["Where do he see yourself in future","yourself in future"],
+    "responses" :["Out of india and be with you"]
+    },
+    {"tag" : "game",
+    "patterns" :["do he play games","play games","games","uvais play games","which games you play","game"],
+    "responses" :["Playing with you is the best game he ever play"]
+    },
+    {"tag" : "relationship",
+    "patterns" :["does he miss the first relationship","he miss the first girlfriend","does he miss the first girlfriend","miss his first relationship"," miss first relationship","miss first girlfriend"],
+    "responses" :["Sometime but not all the time because past is past and he don't deserve that kind of relationship that's why he allways happy"]
+    },
+    {"tag" : "birthday",
+    "patterns" :["tell me about his birthday","about his birthdaya","birthday","uvais birthday","his birthday"],
+    "responses" :[" 20 sep..happy"]
+    }
+ ]
+}
