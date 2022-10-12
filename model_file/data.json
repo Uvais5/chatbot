@@ -10,7 +10,7 @@
     },
     {"tag":"thanks",
     "patterns":["Thanks","thanks","That's helpful","Awesome","Thanks for helping me","great","you are great","that's helpfull","thanks for helping me","thanks bot","thank you very much","thank you"],
-    "responses":["Happy to helpinng you"]
+    "responses":["Happy to help you"]
     },
     {"tag":"noanswer",
     "patterns":[],
