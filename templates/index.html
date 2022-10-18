@@ -214,7 +214,7 @@ $(window).on('keydown', function(e) {
 // This is for start voice msg #######################
 var msg = new SpeechSynthesisUtterance(); 
 var voices = window.speechSynthesis.getVoices();
-msg.voice = voices[10]; 
+msg.voice = voices[0]; 
 msg.volume = 1; // From 0 to 1
 msg.rate = 0.7; // From 0.1 to 10
 msg.pitch = 2; // From 0 to 2
