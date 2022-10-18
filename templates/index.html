@@ -129,6 +129,11 @@ function botResponse(rawText) {
         msg.play();
         
         var msg = new SpeechSynthesisUtterance();
+	msg.lang = "en-US";
+        const voices = speechSynthesis
+        .getVoices()
+        .filter(msg => msg.lang === "en-US");
+        msg.voice = voices[0];
         msg.volume = 1; 
         msg.rate = 0.7; 
         msg.pitch = 2; 
@@ -215,6 +220,11 @@ $(window).on('keydown', function(e) {
 var msg = new SpeechSynthesisUtterance(); 
 var voices = window.speechSynthesis.getVoices();
 // msg.voice = voices[0]; 
+msg.lang = "en-US";
+const voices = speechSynthesis
+.getVoices()
+.filter(msg => msg.lang === "en-US");
+msg.voice = voices[0];
 msg.volume = 1; // From 0 to 1
 msg.rate = 0.7; // From 0.1 to 10
 msg.pitch = 2; // From 0 to 2
