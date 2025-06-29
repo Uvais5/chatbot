@@ -18,22 +18,7 @@ A dual chatbot system built with **Python, NLTK, TensorFlow/Keras**, and a light
 ---
 
 
-## 📌 Table of Contents
 
-- [📖 Overview](#-overview)
-- [🎯 Problem Solving](#-problem-solving)
-- [💼 Use Cases](#-use-cases)
-- [🧠 How It Works](#-how-it-works)
-- [🚀 Quick Start](#-quick-start)
-- [📁 Project Structure](#-project-structure)
-- [📝 Example Usage](#-example-usage)
-- [🚀 Deploy on Heroku](#-deploy-on-heroku)
-- [🔧 Train Your Own Chatbot](#-train-your-own-chatbot)
-- [🛣️ Roadmap](#roadmap)
-- [📜 License](#-license)
-- [🤝 Contributing](#-contributing)
-
----
 
 ## 📖 Overview
 
