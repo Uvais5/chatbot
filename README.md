@@ -1,10 +1,16 @@
 # 🤖 Dual Chatbot System – Personal Assistant & Data Expert
 
-[![Python](https://img.shields.io/badge/python-3.7%2B-blue)](https://www.python.org/)
-[![MIT License](https://img.shields.io/badge/license-MIT-green)](https://opensource.org/licenses/MIT)
-[![Heroku Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Uvais5/chatbot)
+[![Python](https://img.shields.io/badge/Python-3.7%2B-blue?logo=python)](https://www.python.org/)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)](https://developer.mozilla.org/docs/Web/Guide/HTML/HTML5)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)](https://developer.mozilla.org/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)](https://developer.mozilla.org/docs/Web/JavaScript)
+[![NLTK](https://img.shields.io/badge/NLTK-3.x-green)](https://www.nltk.org/)
+[![MIT License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Uvais5/chatbot)
 
-A dual chatbot system built using **Python, NLTK, and TensorFlow/Keras**, designed to answer both **personal* and **data-related** questions. These bots are trained using custom JSON intent files and deployed on Heroku for global accessibility.
+A dual chatbot system built with **Python, NLTK, TensorFlow/Keras**, and a lightweight **HTML + CSS + JavaScript** front‑end, designed to answer both **personal** and **data‑science** questions. The bots are trained on custom JSON intent files and are **live on Heroku** for instant access.
+
+<!-- …everything else in your README stays the same … -->
 
 ---
 
