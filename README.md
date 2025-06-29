@@ -12,6 +12,11 @@ A dual chatbot system built with **Python, NLTK, TensorFlow/Keras**, and a light
 <!-- …everything else in your README stays the same … -->
 
 ---
+<!-- 300 px wide -->
+<img src="intro.gif" width="300">
+
+---
+
 
 ## 📌 Table of Contents
 
