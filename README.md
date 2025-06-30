@@ -13,7 +13,7 @@ A dual chatbot system built with **Python, NLTK, TensorFlow/Keras**, and a light
 
 ---
 <!-- 300 px wide -->
-<img src="intro.gif" width="400">
+<img src="intro.gif" width="700">
 
 ---
 
