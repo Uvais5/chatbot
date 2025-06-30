@@ -31,6 +31,22 @@ Both use a Bag‑of‑Words + feed‑forward NN framework in Keras.
 
 ---
 
+## 🎬 Project Demo
+
+<div align="center">
+  <a href="https://youtu.be/kc3UOvSVldE" target="_blank">
+    <img src="thumbnail.png" alt="Watch Dual Chatbot System: Personal Assistant + Data Expert Demo" width="640">
+  </a>
+  <br>
+  <strong><a href="https://youtu.be/kc3UOvSVldE" target="_blank">▶️ Watch: Dual Chatbot System: Personal Assistant + Data Expert</a></strong>
+  <p>Video by Data Science Solutions</p>
+</div>
+
+
+* Transfer Learning | Deep Learning | chatbot | TensorFlow | Python*
+
+---
+
 ## 🎯 Problem Solving
 
 | 🔍 Problem | ✅ Solution |
